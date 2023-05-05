@@ -1,0 +1,69 @@
+#  @urlApi = https://sportsplanet-production.up.railway.app
+ @urlApi = http://localhost:5000
+
+
+
+### get all users
+GET {{urlApi}}/users
+
+### get name a users
+GET {{urlApi}}/users?name=jose
+
+### create a user
+POST {{urlApi}}/users
+Content-Type: application/json
+
+{
+  "name":"Ximena",
+  "eMail":"gonzales@gmail.com",
+  "lastName":"Gonzalesz",
+  "image":"https://i.pinimg.com/originals/af/dd/86/afdd863fd6bd045c797f57895a80a756.jpg"
+}
+
+### get single user id
+GET {{urlApi}}/users/643354bab05a570e9f54140b
+
+### banear single user
+POST {{urlApi}}/users/643354bab05a570e9f54140b
+
+### update a user
+PUT {{urlApi}}/users/6435a78514842ab68f38e876
+Content-Type: application/json
+
+{
+  "mySales":[]
+}
+
+### update to user a admin
+PUT {{urlApi}}/users/isadmin/643196f41b964ba1250414a0
+Content-Type: application/json
+
+{
+  "roll":"admin"
+}
+
+### update to admin a user
+PUT {{urlApi}}/users/isadmin/643196f41b964ba1250414a0
+Content-Type: application/json
+
+{
+  "roll":"user"
+}
+
+
+
+### favorite a user
+POST {{urlApi}}/users/favorite
+Content-Type: application/json
+
+{
+  "user":"642383a9afc7672526531bdd",
+  "product":"6428c6f2d2af90595e140cea" 
+}
+### my cart
+POST {{urlApi}}/users/cart/643354bab05a570e9f54140b
+Content-Type: application/json
+
+[
+
+]

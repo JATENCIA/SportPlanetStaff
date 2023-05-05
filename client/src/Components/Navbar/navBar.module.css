@@ -1,0 +1,122 @@
+.navContainer {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  justify-content: space-around;
+  width: 100%;
+  top: 0;
+  left: 0;
+  right: 0;
+  background-color: white;
+  height: 103px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+/* SEARCH */
+.searchDiv {
+  border: 1px solid rgb(215, 210, 210);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 5px;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  position: absolute;
+  box-shadow: 0px 4px 6px -4px rgba(174, 170, 170, 0.63);
+}
+
+.inputSearch {
+  font-size: 14px;
+  font-family: RobotoCondensed;
+  border-radius: 2px;
+  width: 400px;
+  height: 40px;
+  border: none;
+  padding-left: 15px;
+  border-radius: 5px;
+}
+.inputSearch:focus {
+  outline: 0;
+}
+
+.btnSearch {
+  background-color: rgb(66, 62, 62);
+  color: white;
+  padding: 0 10px;
+  cursor: pointer;
+  height: 40px;
+  transition: all 200ms ease;
+  border-radius: 0 5px 5px 0;
+}
+
+.logo {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  font-family: aBlackLives;
+  font-size: 20px;
+  text-shadow: 1px 1px 1px gray;
+}
+
+.img {
+  padding-right: 5px;
+  height: 80px;
+  width: auto;
+}
+
+.divUserContainer {
+  transition: all 200ms ease;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-evenly;
+  width: 250px;
+  font-family: aBlackLives;
+  font-size: 15px;
+  margin-left: 2rem;
+  padding: 5px;
+}
+
+.divLogin {
+  background-color: white;
+  transition: all 200ms ease;
+}
+
+.divLogin:hover {
+  font-weight: bold;
+  background-color: white;
+}
+
+.cartContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: all 200ms ease;
+}
+.cartContainer:hover {
+  font-weight: bold;
+  transform: scale(1.05);
+}
+
+.cartSpan {
+  padding-left: 1rem;
+}
+
+.divLogin {
+  margin-left: -5rem;
+}
+
+.sellButton {
+  width: 50px;
+  transition: all 200ms ease;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.sellButton:hover {
+  font-weight: bold;
+  transform: scale(1.05);
+}
