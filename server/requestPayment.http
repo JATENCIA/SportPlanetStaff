@@ -1,6 +1,6 @@
 
-#  @urlApi = http://localhost:5000
- @urlApi = https://1888-201-221-172-179.ngrok-free.app 
+ @urlApi = http://localhost:5000
+#  @urlApi = https://1888-201-221-172-179.ngrok-free.app 
 # @urlApi = https://sportsplanet-production.up.railway.app
  
 
