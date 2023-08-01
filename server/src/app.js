@@ -15,8 +15,8 @@ app.use(express.urlencoded({ extended: false }))
 
 app.use(
   cors({
-    // origin: 'https://sport-planet-staff-nbkv.vercel.app',
-    origin: 'http://localhost:5173',
+    origin: 'https://sport-planet-staff-nbkv.vercel.app',
+    // origin: 'http://localhost:5173',
     credentials: true
   })
 )
